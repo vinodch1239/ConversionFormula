@@ -20,6 +20,15 @@ public class KtocService {
 		return ktocFormula.convertCelsiusFormula(kelvin);
 		
 	}
+	
+		public Double toGetInkmeters(String miles) {
+		// TODO Auto-generated method stub
+		return ktocFormula.convertKmFormula(miles);
+	}
 
+	public Double toGetInMiles(String kilometeres) {
+		return ktocFormula.convertMileFormula(kilometeres);
+
+	}
 
 }
