@@ -23,6 +23,21 @@ public class KtocFormula {
 
 		return celsiusVal;
 	}
+	
+		public Double convertKmFormula(String miles) {
+
+		Double km = Double.valueOf(miles);
+		double kilometers = km * 1.609344;
+		System.out.println(kilometers + " Kilometers");
+		return kilometers;
+	}
+
+	public Double convertMileFormula(String kilometeres) {
+		Double mile = Double.valueOf(kilometeres);
+		double miles = mile * 0.621371;
+		System.out.println(" miles ::" + miles);
+		return miles;
+	}
 
 
 }
